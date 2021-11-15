@@ -1,0 +1,91 @@
+<?php
+  session_start();
+?>
+<!DOCTYPE html>
+<html lang="en">
+    <meta name="viewport" content="width=device-width, inital-scale=.0">
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <meta charset="utf-8">
+        <title>Are NZ Waterways Really 100% Pure? | Pure Water NZ</title>
+        <link rel="icon" type="image/png" href="images/logoicon.png">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+     </head>
+    
+    <body> 
+        <?php include 'includes/navBar.php';?><br><br><br>       <br>
+        
+        <div class="article_sideBar">
+          <div class="image-wrapper map-container">
+            <img data-enlargable src="images/maps/NewZealandMaps.png" class="map">
+            <span><p>Image Source: </p><a target="_blank" class="sourceLink" href="https://statisticsnz.shinyapps.io/river_water_quality_ecoli/">https://statisticsnz.shinyapps.io/river_water_quality_ecoli/</a></span>
+          </div> 
+        </div>
+
+        <article>
+          <br>
+          <h1>Are NZ Waterways Really 100% Pure?</h1>
+          <p class="article-meta"><strong>Author:</strong>  Benj Baniqued and Jayden Marsden, <strong>Published:</strong> 29/05/2020</p>     
+
+          <div class="image-wrapper">
+            <img data-enlargable src="images/pureWaterThumbnail.png">
+            <span>Image Source: https://www.pxfuel.com/en/free-photo-jkqdk</span>
+          </div> 
+
+          <audio controls>
+            <source src="audio/PureWaterAudio.mp3" type="audio/mpeg">
+          </audio>
+
+          <p>
+          In 2017 a video was created to advertise New Zealand’s waters as ‘100%’ pure as a way to attract tourists. It shows a woman who had been tramping, taking a drink of water from a river. This video was shot at the <a href="https://www.google.com/maps/dir/-41.1430224,175.0129408/blue+pools+haast/@-42.9048002,167.5401107,6z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x6cd5674c70df2a35:0xc801d0fea1bbf729!2m2!1d169.2767831!2d-44.1641715">Blue Pools in Haast</a> and Over 350 000 people have watched this on youtube. 
+          </p>
+          <p>
+          The Blue Pools track is a popular tourist destination that is also known for its pure water and is unlikely to cause any health issues, but only a minority of New Zealand’s waters are actually pure.
+          </p>
+          <p>
+          The <a href="https://www.oecd.org/newzealand/">OECD</a> has already addressed the quality issues of New Zealand’s waters and raised the prospect of reputable damage. Around half of New Zealand’s rivers have been monitored for <a href="https://www.google.com/search?safe=strict&rlz=1C1CHBF_enNZ882NZ883&ei=2ndUXsj4Acaf4-EP45-MwAg&q=Escherichia+coli&oq=Escherichia+coli&gs_l=psy-ab.3..0j0i67j0l8.12842.13674..17191...0.2..0.228.409.0j1j1......0....1..gws-wiz.......0i71j0i10j0i7i10i30j0i7i30.GLnU77gb9rw&ved=0ahUKEwjIzaqOxuvnAhXGzzgGHeMPA4gQ4dUDCAs&uact=5">Escherichia coli</a> or E coli for short according to the <a href="https://statisticsnz.shinyapps.io/river_water_quality_ecoli/">data from the Ministry for the Environment.</a>
+          </p>
+          <p>
+          People are affected by this contaminant which comes from fecal contamination or in other words, poop. This was found in <a href="https://www.health.govt.nz/our-work/environmental-health/drinking-water/government-inquiry-havelock-north-drinking-water-outbreak">Havelock North’s</a> water in August 2016, with 5200 people diagnosed with <a href="https://www.google.com/search?q=gastrointestinal+illness&rlz=1C1CHBF_enNZ882NZ883&oq=gastrointestinal+illness&aqs=chrome..69i57j0l7.898j0j7&sourceid=chrome&ie=UTF-8">gastrointestinal illness</a>. The biggest water outbreak in NZ history. 
+          </p>
+          <p>
+          There are two main ways that New Zealand’s waters get polluted, from a point source or a diffuse source. 
+          </p>
+          <p>
+          A point source comes from an identifiable source like a pipe going to a river. 
+          </p>
+          <p>
+          A diffuse source is where the pollution has no specific place of where it comes from and is the main cause of New Zealand’s water quality problems. Controlling diffuse source pollution is no easy feat.
+          </p>
+          <p>
+          In 2014 the government set the national bottom line for New Zealand’s waterways as eligible for “wading or boating”. 98% of New Zealand’s waterways meet the target. Environmental groups are not satisfied with this claim and want New Zealand’s waters to be suitable for swimming, and currently 60% of NZ’s waters fail the health standard for swimming from the <a href="https://www.rnz.co.nz/news/political/325183/govt-plans-to-make-90-percent-of-nz-waterways-swimmable-by-2040 https://niwa.co.nz/">National Institute of Water and Atmosphere</a> (NIWA). 
+          </p>
+          <p>
+          So are New Zealand’s waterways 100% pure? No it certainly is not, but it is said that the government plans to make 90% of New Zealand’s waterways swimmable by 2040. So let’s hope for a brighter future and cleaner waters then.
+          </p>
+        </article>         
+        
+        <div class="container features">
+          <h1>Related Articles</h1>
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <a href="PureWaterArticle.php"><h3 href="PureWaterArticle.php" class="feature-title">Are NZ Waterways Really 100% Pure?</h3></a>
+              <a href="PureWaterArticle.php"><img src="images/pureWaterThumbnail - Cropped.png" class="img-fluid"></a>
+              <p><b>29/05/2020:</b> In 2017 a video was created to advertise New Zealand’s waters as ‘100%’ pure as a way to attract tourists. It shows a woman who had been tramping, taking a drink of water from a river. This video was shot at the Blue Pools in Haast and Over 350 000 people have watched this on youtube... <a href="PureWaterArticle.php">Click here to read more</a></p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <a href="HavelockNorthArticle.php"><h3 href="HavelockNorthArticle.php" class="feature-title">Havelock North’s Drinking Water Outbreak</h3></a>
+              <a href="HavelockNorthArticle.php"><img src="images/havelockNorthThumbnail-cropped.png" class="img-fluid"></a>
+              <p><b>02/06/2020:</b> More than 5000 people were affected by the outbreak in this city. 45 were hospitalized, possibly linked to 3 deaths and with people who still continue to suffer from its effects today. A gastrointestinal outbreak hit... <a href="HavelockNorthArticle.php">Click here to read more</a></p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <a href="QueenstownBacteria.php"><h3 href="QueenstownBacteria.php" class="feature-title">Queenstown Swimmers Warned of Bacteria!</h3></a>
+              <a href="QueenstownBacteria.php"><img src="images/QueenstownThumbnail.jpg" class="img-fluid"></a>
+              <p><b>29/05/2020:</b> During the 2019 summer season swimmers were warned to not swim at Lake Wakatipu because of a rise in E.Coli levels, chief engineer Ulrich Glasner said that this could’ve been because of the recent high winds disrupting the lake <a href="QueenstownBacteria.php">Click here to read more...</a></p>                
+            </div>      
+          </div> 
+        </div>        
+        <?php include 'includes/footer.php';?>
+    </body>
+</html>
