@@ -124,3 +124,16 @@ span{
     position: relative;
     top: 10px;
 }
+
+.disable {
+    opacity: 0.5;
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
+.disabled-warning {
+    color: red;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+}

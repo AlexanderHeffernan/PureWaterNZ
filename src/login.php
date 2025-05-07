@@ -54,7 +54,8 @@
                     ?>
                     <input type="text" name="mailuid" class="input-field" placeholder="Username/Email" required>
                     <input type="password" name="pwd" class="input-field" placeholder="Password" required>
-                    <button type="submit" name="login-submit" class="submit-btn">Log In</button>
+                    <button type="submit" name="login-submit" class="submit-btn disable">Log In</button>
+                    <p class="disabled-warning">Login/Signup system is currently disabled.</p>
                 </form>
 
 
@@ -94,7 +95,8 @@
                     <input type="password" name="pwd" class="input-field" placeholder="Password" required>
                     <input type="password" name="pwd-repeat" class="input-field" placeholder="Repeat Password" required>
                     <input type="checkbox" name="remember" class="check-box" placeholder="User ID" required><span>I agree to the terms & conditions</span>
-                    <button type="submit" name="signup-submit" class="submit-btn">Register</button>
+                    <button type="submit" name="signup-submit" class="submit-btn disable">Register</button>
+                    <p class="disabled-warning">Login/Signup system is currently disabled.</p>
                 </form>
             </div>            
         </div>
